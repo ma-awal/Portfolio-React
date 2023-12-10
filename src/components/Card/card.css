@@ -1,0 +1,37 @@
+ 
+.all .card{
+   min-height:25vh;;;
+   display: flex;
+   justify-content: center ;
+   align-items:center;
+ 
+   background: linear-gradient(45deg,transparent,var(--color-primary),transparent);
+}
+
+@media (max-width:992px) {
+   .all .card{
+      min-height:20vh;;;
+     
+      
+   }
+   .all .card >h4{
+      font-size: 20px;;
+   }
+   
+}
+
+@media (max-width:768px) {
+   .all .card{
+      min-height:15vh;;;
+     
+      
+   }
+   .all .card >h4{
+      font-size: 16px;;
+   }
+}
+
+
+@media (max-width:576px) {
+ 
+}

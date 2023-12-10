@@ -1,0 +1,84 @@
+.header {
+  transition: background-color 0.3s ease;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: var(--color-bg);
+  z-index: 1000;
+  box-shadow: 0px 0px 20px 0px var(--color-bg-variant);
+}
+
+.header .nav-brand {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 16px;
+  background: linear-gradient(to right, #40ffa3, #274a99);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.header .nav-link {
+  font-weight: 400;
+  font-size: 14.5px !important;
+  color: var(--color-white) !important;
+  line-height: 20px;
+}
+
+.header .nav-link.active {
+  color: var(--color-primary) !important;
+}
+
+/* Side bar */
+.sidebar {
+  background: rgba(0, 0, 0, 0.777);
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 100;
+}
+
+.sidebar .slider {
+  background: var(--color-bg);
+
+  width: 250px;
+  height: 100vh;
+}
+.sidebar .slider .heading {
+  color: var(--orange-color);
+  padding: 0.3rem 0.3rem;
+}
+
+.sidebar .slider .heading h6 {
+  background: linear-gradient(to right, #40ffa3, #274a99);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.sidebar .slider .nav-item {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.sidebar .slider .nav-item .nav-link {
+  display: block;
+  font-size: var(--text-base);
+  background: var(--color-bg-variant);
+  padding: 0.5rem 0.7rem;
+  text-align: center;
+  border-radius: 35px;
+}
+
+.header .bar-btn .bar-icon {
+  color: var(--color-primary) !important;
+}
+
+@media (max-width: 576px) {
+  .header .nav-brand {
+    font-size: 17px !important;
+  }
+}

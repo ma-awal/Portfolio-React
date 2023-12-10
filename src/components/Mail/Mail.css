@@ -1,0 +1,98 @@
+.mail .a_connect {
+  border-right: 1px solid;
+  border-image: linear-gradient(to bottom, #40ffa3, #274a99) 2;
+}
+
+.mail .mail_address div > span {
+  font-size: 14px;
+  font-weight: 600;
+}
+.mail .mail_address > P {
+  color: var(--color-light);
+  margin: 0;
+  padding: 0;
+  font-size: 12px !important;
+}
+
+.mail .form > textarea {
+  font-size: 12px;
+}
+
+.mail .mail_address .icon {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0rem;
+  /* background: white; */
+  background: var(--color-primary);
+  margin: auto 0;
+}
+.mail .mail-address .icon {
+  /* color: var(--color-bg-variant); */
+  color: white;
+  font-weight: bolder;
+}
+.mail .btn {
+  font-size: 12px;
+}
+
+.mail .mail_cont > h1 {
+  font-size: 28px;
+}
+.mail .mail_cont > h6 {
+  color: var(--color-light);
+  font-size: 16px;
+}
+
+.mail .form label {
+  font-size: 14px;
+  color: var(--color-light);
+  margin-bottom: 8px;
+}
+
+.mail .form input {
+  font-size: 12px;
+  border: none;
+  box-shadow: none;
+  border-radius: 0;
+  padding: 0.6rem 0.5rem;
+}
+
+.mail .form textarea {
+  font-size: 12px;
+  border: none;
+  box-shadow: none;
+  border-radius: 0;
+}
+
+@media (max-width: 992px) {
+  .mail .mail_cont > h6 {
+    font-size: 14px;
+  }
+  .mail .mail_cont > h1 {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 768px) {
+  .mail .mail_cont > h1 {
+    font-size: 22px;
+  }
+  .mail .mail_cont > span {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 576px) {
+  .mail .mail_cont > h1 {
+    font-size: 20px;
+  }
+
+  .mail .a_connect {
+    border-right: 0;
+    border-bottom: 1px solid;
+    border-image: linear-gradient(to right, #40ffa3, #274a99) 2;
+  }
+}

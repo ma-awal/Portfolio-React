@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style: 0;
+  outline: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+:root {
+  --color-bg: #1f1f38;
+  --color-bg-variant: #2c2c6c;
+  --color-primary: #4db5ff;
+  --color-primary-variant: rgba(77, 181, 255, 0.4);
+  --color-light: rgba(255, 255, 255, 0.6);
+  --color-white: #f3f3f3;
+  --transition: all 400 ease;
+  --gradient1: linear-gradient(to right, #0e6567, #274a99);
+  --gradient2: linear-gradient(to right, #40ffa3, #274a99);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: var(--color-bg) !important;
+  color: var(--color-white) !important;
+  font-size: 13px;
+  line-height: 1.7rem;
+}
+
+.btn {
+  width: max-content;
+  border: 1px solid var(--color-primary) !important;
+  color: var(--color-primary) !important;
+  border-radius: 0.4rem;
+  padding: 10px 16px;
+  transition: var(--transition);
+  cursor: pointer;
+  display: inline-block;
+  font-size: 13px !important;
+  font-weight: 300;
+}
+.btn:hover {
+  color: var(--color-white) !important;
+  background: linear-gradient(
+    45deg,
+    transparent,
+    var(--color-primary),
+    transparent
+  );
+  border-color: transparent !important;
+}
+
+.btn_gradient {
+  background: linear-gradient(
+    45deg,
+    transparent,
+    var(--color-primary),
+    transparent
+  );
+  color: var(--color-white) !important;
+}
+.btn_next_prev {
+  width: max-content;
+  border: 1px solid var(--color-primary) !important;
+  color: var(--color-primary) !important;
+  border-radius: 0.4rem;
+  padding: 10px 16px;
+  transition: var(--transition);
+  cursor: pointer;
+  display: inline-block;
+  font-size: 13px !important;
+  font-weight: 300;
+  background: transparent;
+}
+img {
+  width: 100%;
+  object-fit: cover;
+  max-width: 100%;
+}
+
+h1,
+h2 {
+  font-weight: 500;
+}
+p {
+  font-size: 13px;
+}
+
+.blur {
+  background: linear-gradient(to right, #0e6567, #274a99);
+  position: absolute;
+  width: 22rem;
+  height: 14rem;
+  border-radius: 50%;
+  filter: blur(72px);
+  z-index: -1000;
+}
+@media (max-width: 1024px) {
+  .btn {
+    padding: 6px 12px !important;
+    font-size: 14px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .btn {
+    padding: 6px 8px !important;
+    font-size: 14px !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .btn {
+    padding: 4px 8px !important;
+    font-size: 14px !important;
+  }
+}

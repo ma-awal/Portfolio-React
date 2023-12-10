@@ -1,0 +1,48 @@
+ .footer{
+   min-height: 25vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+   ;
+ }
+ .footer .icon{
+
+ }
+ .footer .icon>a>img{
+  max-width: 20px;;
+    
+ }
+ 
+ @media (max-width:992px) {
+  .footer h4{
+    font-size: 18px;
+   }
+   .footer{
+      min-height:  25vh;
+    
+    }
+ }
+
+ @media (max-width:768px) {
+   .footer h4{
+     font-size: 16px;
+    }
+    .footer{
+      min-height:  20vh;
+    
+    }
+  }
+  @media (max-width:576px) {
+ 
+   .footer{
+      min-height:  15vh;
+    
+    }
+  }
+
+
+  .footer .what>a>img{
+    width:35px;
+    ;
+  }
