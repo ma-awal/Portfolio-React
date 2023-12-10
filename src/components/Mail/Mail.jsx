@@ -6,8 +6,7 @@ import { CiLocationOn } from 'react-icons/ci';
 
 import { AiOutlinePhone } from 'react-icons/ai';
 import { AiOutlineMail } from 'react-icons/ai';
-// import { BsMessenger } from "react-icons/bs";
-// import { BsWhatsapp } from "react-icons/bs";
+
 const Mail = () => {
   const form = useRef();
 
