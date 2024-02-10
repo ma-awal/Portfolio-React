@@ -4,8 +4,7 @@ import education from '../assets/Edu.png';
 import techmax from '../assets/techmax.png';
 import star from '../assets/star.png';
 import feane from '../assets/foores.png';
-import foodex from '../assets/foodex.png';
-import dash from '../assets/dashboard.png';
+
 export const projectData = [
   {
     img: portfolio,
@@ -29,21 +28,8 @@ export const projectData = [
   {
     img: feane,
     title: 'Feane',
-    link: 'https://feanes.vercel.app/',
+    link: 'https://feane-ma-awal.vercel.app/',
     gitHub: 'https://github.com/ma-awal/Feane',
-  },
-  {
-    img: dash,
-    title: 'Dashboard',
-    link: 'https://dashboard-iota-orcin.vercel.app/',
-    gitHub: 'https://github.com/ma-awal/Dashboard',
-  },
-
-  {
-    img: foodex,
-    title: 'Foodex',
-    link: 'https://foodex-ma-awal.vercel.app/',
-    gitHub: 'https://github.com/ma-awal/foodex',
   },
 
   {

@@ -1,6 +1,7 @@
 import React from 'react';
 import './Banner.css';
 import Me from '../../assets/Profile.png';
+import banner from '../../assets/Untitled-1.png';
 import Button from './Button';
 const Banner = () => {
   return (
